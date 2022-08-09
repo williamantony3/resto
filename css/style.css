@@ -1,0 +1,28 @@
+@font-face{
+    font-family: PoppinsRegular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family: NunitoExtraBold;
+    src: url(../fonts/nunito.extrabold.ttf);
+}
+body{
+    background-color: #FAFAFA;
+    font-family: PoppinsRegular;
+}
+#nav-container{
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-menu{
+    display: flex;
+}
+#nav-logo{
+    display: flex;
+}
+#nav-logo-title{
+    line-height: 30px;
+    font-family: NunitoExtraBold;
+    font-size: 28px;
+}
