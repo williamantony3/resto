@@ -3,6 +3,10 @@
     src: url(../fonts/Poppins-Regular.ttf);
 }
 @font-face{
+    font-family: PoppinsMedium;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face{
     font-family: NunitoExtraBold;
     src: url(../fonts/nunito.extrabold.ttf);
 }
@@ -17,12 +21,30 @@ body{
 }
 #nav-menu{
     display: flex;
+    justify-content: space-between;
 }
 #nav-logo{
     display: flex;
+}
+#nav-logo svg{
+    margin-right: 8px;
 }
 #nav-logo-title{
     line-height: 30px;
     font-family: NunitoExtraBold;
     font-size: 28px;
+}
+.nav-menu-item a{
+    font-family: PoppinsMedium;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 30px;
+}
+.nav-menu-item:last-child a{
+    font-family: PoppinsMedium;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 0;
 }
